@@ -1,0 +1,266 @@
+body{
+    margin: 0;
+    height: 60vw;
+    background-image: url("../img/pf.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#scoreboard{
+    position: absolute;
+    top: 2.5vw;
+    left: 2.5vw;
+    height: 25vw;
+    width: 32.5vw;
+}
+
+#virusboard{
+    position: absolute;
+    top: 30vw;
+    left: 2.5%;
+    height: 30vw;
+    width: 32.5vw;
+}
+
+#gameboard{
+    position: absolute;
+    top: 5vw;
+    left: 37.5vw;
+    height: 52.5vw;
+    width: 30vw;
+}
+
+#marioboard{
+    position: absolute;
+    top: 5vw;
+    left: 72.5vw;
+    height: 22.5vw;
+    width: 22.5vw;
+}
+#mariodead{
+    position: absolute;
+    top: 2.5vw;
+    left: 2.5vw;
+    height: 17.5vw;
+    width: 17.5vw;
+    z-index: 12;
+    background-image: url(../img/go_dr.png);
+    background-size: cover;
+    display: none;
+}
+#mariohand{
+    position: absolute;
+    z-index: 5;
+    background-size: cover;
+}
+.handup{
+    top: 5vw;
+    left: 5vw;
+    width: 2.5vw;
+    height: 7.5vw;
+    background-image: url(../img/hands/up.png);
+}
+.handmid{
+    top: 7.5vw;
+    left: 2.5vw;
+    width: 5vw;
+    height: 5vw;
+    background-image: url(../img/hands/middle.png);
+}
+.handdown{
+    top: 10vw;
+    left: 5vw;
+    width: 2.5vw;
+    height: 5vw;
+    background-image: url(../img/hands/down.png);
+}
+
+#levelboard{
+    position: absolute;
+    top: 27.5vw;
+    left: 70vw;
+    height: 32.5vw;
+    width: 27.5vw;
+}
+
+#sc{
+    position:absolute;
+    background-image: url("../img/sc.png");
+    background-size: cover;
+    width: 45vw;
+    height: 12.5vw;
+    top: 20vw;
+    left: 30vw;
+    z-index: 12;
+    display:none;
+}
+
+#go{
+    position:absolute;
+    background-image: url("../img/go.png");
+    background-size: cover;
+    width: 35vw;
+    height: 12.5vw;
+    top: 20vw;
+    left: 35vw;
+    z-index: 12;
+    display:none;
+}
+
+.capsule{
+    position:absolute;
+    width: 2.5vw;
+    height: 2.5vw;
+    background-size: cover;
+    z-index: 10;
+}
+
+.left1{
+    background-image: url("../img/bl_left.png");
+}
+.right1{
+    background-image: url("../img/bl_right.png");
+}
+.up1{
+    background-image: url("../img/bl_up.png");
+}
+.down1{
+    background-image: url("../img/bl_down.png");
+}
+.dot1{
+    background-image: url("../img/bl_dot.png");
+}
+.virus1{
+    background-image: url("../img/covid_blue.png");
+}
+.x1{
+    background-image: url("../img/bl_x.png");
+}
+.o1{
+    background-image: url("../img/bl_o.png");
+}
+
+
+.left2{
+    background-image: url("../img/br_left.png");
+}
+.right2{
+    background-image: url("../img/br_right.png");
+}
+.up2{
+    background-image: url("../img/br_up.png");
+}
+.down2{
+    background-image: url("../img/br_down.png");
+}
+.dot2{
+    background-image: url("../img/br_dot.png");
+}
+.virus2{
+    background-image: url("../img/covid_brown.png");
+}
+.x2{
+    background-image: url("../img/br_x.png");
+}
+.o2{
+    background-image: url("../img/br_o.png");
+}
+
+
+.left3{
+    background-image: url("../img/yl_left.png");
+}
+.right3{
+    background-image: url("../img/yl_right.png");
+}
+.up3{
+    background-image: url("../img/yl_up.png");
+}
+.down3{
+    background-image: url("../img/yl_down.png");
+}
+.dot3{
+    background-image: url("../img/yl_dot.png");
+}
+.virus3{
+    background-image: url("../img/covid_yellow.png");
+}
+.x3{
+    background-image: url("../img/yl_x.png");
+}
+.o3{
+    background-image: url("../img/yl_o.png");
+}
+
+.virusmg{
+    position: absolute;
+    background-size: cover;
+    height: 7.5vw;
+    width: 10vw;
+    z-index: 12;
+}
+
+.v1 {
+    top: 10vw;
+    left: 2.5vw; }
+.v2 {
+    top: 10vw;
+    left: 2.5vw; }
+.v3 {
+    top: 12.5vw;
+    left: 2.5vw; }
+.v4 {
+    top: 15vw;
+    left: 5vw; }
+.v5 {
+    top: 17.5vw;
+    left: 5vw; }
+.v6 {
+    top: 17.5vw;
+    left: 7.5vw; }
+.v7 {
+    top: 17.5vw;
+    left: 10vw; }
+.v8 {
+    top: 17.5vw;
+    left: 12.5vw; }
+.v9 {
+    top: 17.5vw;
+    left: 15vw; }
+.v10 {
+    top: 15vw;
+    left: 17.5vw; }
+.v11 {
+    top: 12.5vw;
+    left: 17.5vw; }
+.v12 {
+    top: 10vw;
+    left: 17.5vw; }
+.v13 {
+    top: 7.5vw;
+    left: 17.5vw; }
+.v14 {
+    top: 5vw;
+    left: 15vw; }
+.v15 {
+    top: 5vw;
+    left: 12.5vw; }
+.v16 {
+    top: 5vw;
+    left: 10vw; }
+.v17 {
+    top: 5vw;
+    left: 7.5vw; }
+.v18 {
+    top: 7.5vw;
+    left: 5vw; }
+
+#virusmg1{
+    background-image: url(../img/lupa/1/move.png);
+}
+#virusmg2{
+    background-image: url(../img/lupa/2/move.png);
+}
+#virusmg3{
+    background-image: url(../img/lupa/3/move.png);
+}
